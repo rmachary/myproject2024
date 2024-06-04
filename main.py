@@ -17,7 +17,7 @@ st.sidebar.image("Photos/1-6.png")
 
 # Title 
 st.title("Online Dashboard")
-st.markdown(### The wonder Dashboard developed by Raymond Machary###)
+st.markdown("### The wonder Dashboard developed by Raymond Machary###")
 
 #load Css style 
 with open('style.css') as f:
