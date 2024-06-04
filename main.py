@@ -120,8 +120,8 @@ with coll2:
         'Category' : df_selection['OrderDate'],
         'Value': df_selection['Quantity']
     }
-df=pd.DataFrame(data)
-st.bar_chart(df.set_index('Category')['Value'], use_container_width=600, height=600,)
+    df=pd.DataFrame(data)
+    st.bar_chart(df.set_index('Category')['Value'], use_container_width=600, height=600,)
 
  
 
