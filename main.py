@@ -64,7 +64,7 @@ col1, col2, col3, col4 = st.columns(4)
 col1.metric(label="Total Items", value=df_selection.Product.count(), delta="Number of Item in Stock")
 col2.metric(label="Sum of Product Total Price USD:", value=f"{df_selection.TotalPrice.sum():,.0f}",delta=df_selection.TotalPrice.median())
 col3.metric(label="Maximum Price USD:", value=f"{df_selection.TotalPrice.max():,.0f}", delta="High Price")
-col3.metric(label="Minimum Price USD:", value=f"{df_selection.TotalPrice.min():,.0f}", delta="Low Price")
+col4.metric(label="Minimum Price USD:", value=f"{df_selection.TotalPrice.min():,.0f}", delta="Low Price")
 style_metric_cards(background_color="#FF588E", border_left_color="#FF4B4B", border_color="#1f66bd",box_shadow="#FFF398")
 
 coll1,coll2=st.columns(2)
