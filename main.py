@@ -88,7 +88,7 @@ with st.container():  # Use st.container() or another layout function if coll1 i
 
 #Progress Bar
 def Progressbar():
-    st.markdown("""<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    st.markdown("""<br><br><br><br><br><br><br><br><br>
 <style>
 .stProgress > div > div > div {
     background-image: linear-gradient(to right, #4CAF50, #8BC34A);
