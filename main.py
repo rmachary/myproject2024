@@ -16,7 +16,7 @@ theme_plotly = None
 st.sidebar.image("Photos/1-6.png")
 
 # Title 
-st.title("Online Dashboard: Machary")
+st.title("Online Dashboard:Developed by Machary")
 
 #load Css style 
 with open('style.css') as f:
