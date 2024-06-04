@@ -115,8 +115,7 @@ with coll1:
 with coll2:
    
     st.subheader("Product OrderDate by Quantity")
-     st.markdown("<hr>", unsafe_allow_html=True)
-     st.markdown("<hr>", unsafe_allow_html=True)
+     
     data = {
         'Category' : df_selection['OrderDate'],
         'Value': df_selection['Quantity']
